@@ -1,11 +1,13 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet, Platform } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import COLORS from '../theme/theme';
 
 export default function AppCard({ item }) {
+  const navigation = useNavigation();
+
   const handlePress = () => {
-    // TODO: navegar para a tela de Triagem (plataforma + faixa etária)
-    console.log(`[SafeKidy] App selecionado: ${item.nome} (id: ${item.id})`);
+    navigation.navigate('Triage', { item });
   };
 
   return (
