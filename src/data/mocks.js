@@ -13,7 +13,7 @@ export const CATALOGOS = [
       {
         id: 'roblox',
         nome: 'Roblox',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=Roblox',
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Roblox_Logo_2025.png',
         categoriaTag: 'Jogo',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },
@@ -63,7 +63,7 @@ export const CATALOGOS = [
       {
         id: 'minecraft',
         nome: 'Minecraft',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=Minecraft',
+        imageUrl: 'https://i.pinimg.com/1200x/7f/c4/9c/7fc49c4adbc07dfa36156c131d4c4f7a.jpg',
         categoriaTag: 'Jogo',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },
@@ -97,7 +97,7 @@ export const CATALOGOS = [
       {
         id: 'fortnite',
         nome: 'Fortnite',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=Fortnite',
+        imageUrl: 'https://i.pinimg.com/474x/f2/fd/c0/f2fdc08796c69e41efc507414f3090e2.jpg',
         categoriaTag: 'Jogo',
         plataformas: [
           { id: 'pc', nome: 'Computador', icon: '💻' },
@@ -124,7 +124,7 @@ export const CATALOGOS = [
       {
         id: 'freefire',
         nome: 'Free Fire',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=Free+Fire',
+        imageUrl: 'https://i.pinimg.com/originals/0c/e1/c1/0ce1c1509d710a4b66e19364e716bdcb.jpg',
         categoriaTag: 'Jogo',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },
@@ -150,7 +150,7 @@ export const CATALOGOS = [
       {
         id: 'pokemon',
         nome: 'Pokémon GO',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=Pokemon+GO',
+        imageUrl: 'https://images.seeklogo.com/logo-png/28/1/pokemon-go-logo-png_seeklogo-286439.png',
         categoriaTag: 'Jogo',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },
@@ -189,7 +189,7 @@ export const CATALOGOS = [
       {
         id: 'instagram',
         nome: 'Instagram',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=Instagram',
+        imageUrl: 'https://unblast.com/wp-content/uploads/2025/07/instagram-logo-colored.jpg',
         categoriaTag: 'Rede Social',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },
@@ -215,7 +215,7 @@ export const CATALOGOS = [
       {
         id: 'tiktok',
         nome: 'TikTok',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=TikTok',
+        imageUrl: 'https://img.freepik.com/premium-vector/tik-tok-logo_578229-290.jpg?semt=ais_user_personalization&w=740&q=80',
         categoriaTag: 'Rede Social',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },
@@ -241,7 +241,7 @@ export const CATALOGOS = [
       {
         id: 'youtube',
         nome: 'YouTube',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=YouTube',
+        imageUrl: 'https://play-lh.googleusercontent.com/6am0i3walYwNLc08QOOhRJttQENNGkhlKajXSERf3JnPVRQczIyxw2w3DxeMRTOSdsY',
         categoriaTag: 'Rede Social',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },
@@ -279,7 +279,7 @@ export const CATALOGOS = [
       {
         id: 'whatsapp',
         nome: 'WhatsApp',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=WhatsApp',
+        imageUrl: 'https://store-images.s-microsoft.com/image/apps.8453.13655054093851568.4a371b72-2ce8-4bdb-9d83-be49894d3fa0.7f3687b9-847d-4f86-bb5c-c73259e2b38e',
         categoriaTag: 'Rede Social',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },
@@ -306,7 +306,7 @@ export const CATALOGOS = [
       {
         id: 'discord',
         nome: 'Discord',
-        imageUrl: 'https://placehold.co/120x160/FF1493/FFFFFF/png?text=Discord',
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Discord-logo-icon.jpg',
         categoriaTag: 'Rede Social',
         plataformas: [
           { id: 'ios', nome: 'iPhone/iPad', icon: '📱' },

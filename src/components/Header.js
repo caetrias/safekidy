@@ -1,14 +1,15 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 import COLORS from '../theme/theme';
 
 export default function Header() {
   return (
     <View style={styles.header}>
-      {/* Placeholder do logotipo — trocar por <Image> quando o asset estiver pronto */}
-      <View style={styles.logoPlaceholder}>
-        <Text style={styles.logoIcon}>🛡️</Text>
-      </View>
+      <Image
+        source={require('../../assets/safekidy.jpeg')}
+        style={styles.logo}
+        resizeMode="contain"
+      />
       <Text style={styles.logoText}>SafeKidy</Text>
     </View>
   );
@@ -24,17 +25,11 @@ const styles = StyleSheet.create({
     borderBottomColor: COLORS.border,
     backgroundColor: COLORS.background,
   },
-  logoPlaceholder: {
+  logo: {
     width: 40,
     height: 40,
     borderRadius: 12,
-    backgroundColor: COLORS.primaryLight,
-    alignItems: 'center',
-    justifyContent: 'center',
     marginRight: 10,
-  },
-  logoIcon: {
-    fontSize: 22,
   },
   logoText: {
     fontSize: 26,
